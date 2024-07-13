@@ -1,0 +1,247 @@
+<?xml version="1.0"?>
+<settings>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <StLinkDriver>
+        <stlinkserialNo>6068FF28</stlinkserialNo>
+        <stlinkfoundProbes />
+        <stlinkResetStyle>0</stlinkResetStyle>
+        <stlinkResetStrategy>2</stlinkResetStrategy>
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+    </StLinkDriver>
+    <DebugChecksum>
+        <Checksum>2909779937</Checksum>
+    </DebugChecksum>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
+    <CodeCoverage>
+        <Enabled>_ 0</Enabled>
+    </CodeCoverage>
+    <Disassembly>
+        <InstrCount>0</InstrCount>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <JLinkDriver>
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+    </JLinkDriver>
+    <SWOTraceHWSettings>
+        <OverrideDefaultClocks>0</OverrideDefaultClocks>
+        <CpuClock>168000000</CpuClock>
+        <ClockAutoDetect>0</ClockAutoDetect>
+        <ClockWanted>2000000</ClockWanted>
+        <JtagSpeed>2000000</JtagSpeed>
+        <Prescaler>84</Prescaler>
+        <TimeStampPrescIndex>0</TimeStampPrescIndex>
+        <TimeStampPrescData>0</TimeStampPrescData>
+        <PcSampCYCTAP>1</PcSampCYCTAP>
+        <PcSampPOSTCNT>15</PcSampPOSTCNT>
+        <PcSampIndex>0</PcSampIndex>
+        <DataLogMode>0</DataLogMode>
+        <ITMportsEnable>0</ITMportsEnable>
+        <ITMportsTermIO>0</ITMportsTermIO>
+        <ITMportsLogFile>0</ITMportsLogFile>
+        <ITMlogFile>$PROJ_DIR$\ITM.log</ITMlogFile>
+    </SWOTraceHWSettings>
+    <Jet>
+        <JetConnSerialNo>ATK-HS-V3-CMSIS-DAP:ATK 20190528</JetConnSerialNo>
+        <JetConnFoundProbes />
+        <PrevWtdReset>System</PrevWtdReset>
+        <OnlineReset>Software</OnlineReset>
+        <DisableInterrupts>0</DisableInterrupts>
+        <LeaveRunning>0</LeaveRunning>
+        <MultiCoreRunAll>0</MultiCoreRunAll>
+    </Jet>
+    <PlDriver>
+        <FirstRun>0</FirstRun>
+        <MemConfigValue>F:\EWARM_8321\arm\CONFIG\debugger\ST\STM32F407IG.ddf</MemConfigValue>
+    </PlDriver>
+    <ArmDriver>
+        <EnableCache>1</EnableCache>
+    </ArmDriver>
+    <SWOManager>
+        <SamplingDivider>8192</SamplingDivider>
+        <OverrideClock>0</OverrideClock>
+        <CpuClock>355661</CpuClock>
+        <SwoClock>355686</SwoClock>
+        <DataLogMode>0</DataLogMode>
+        <ItmPortsEnabled>63</ItmPortsEnabled>
+        <ItmTermIOPorts>1</ItmTermIOPorts>
+        <ItmLogPorts>0</ItmLogPorts>
+        <ItmLogFile>$PROJ_DIR$\ITM.log</ItmLogFile>
+        <PowerForcePC>1</PowerForcePC>
+        <PowerConnectPC>1</PowerConnectPC>
+    </SWOManager>
+    <PowerLog>
+        <Title_0>I0</Title_0>
+        <Symbol_0>0 4 0</Symbol_0>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <LiveEnabled>0</LiveEnabled>
+        <LiveFile>PowerLogLive.log</LiveFile>
+    </PowerLog>
+    <DataLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+    </DataLog>
+    <InterruptLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </InterruptLog>
+    <EventLog>
+        <Title_0>Ch3</Title_0>
+        <Symbol_0>0 0 1</Symbol_0>
+        <Title_1>Ch2</Title_1>
+        <Symbol_1>0 0 1</Symbol_1>
+        <Title_2>Ch1</Title_2>
+        <Symbol_2>0 0 1</Symbol_2>
+        <Title_3>Ch0</Title_3>
+        <Symbol_3>0 0 1</Symbol_3>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </EventLog>
+    <DriverProfiling>
+        <Enabled>0</Enabled>
+        <Mode>3</Mode>
+        <Graph>0</Graph>
+        <Symbiont>0</Symbiont>
+        <Exclusions />
+    </DriverProfiling>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
+    <PowerProbe>
+        <Frequency>10000</Frequency>
+        <Probe0>I0</Probe0>
+        <ProbeSetup0>2 1 1 2 0 0</ProbeSetup0>
+    </PowerProbe>
+    <array_types>
+        <Fmt0>uint8_t[10]	3	0</Fmt0>
+        <Fmt1>uint8_t[5]	3	0</Fmt1>
+    </array_types>
+    <watch_formats>
+        <Fmt0>{W}42:CCD_DATA	3	0</Fmt0>
+        <Fmt1>{W}42:jishu_0	3	0</Fmt1>
+        <Fmt2>{W}42:jishu_0_w	3	0</Fmt2>
+        <Fmt3>{W}42:jishu_0_x	3	0</Fmt3>
+        <Fmt4>{W}42:jishu_0_y	3	0</Fmt4>
+        <Fmt5>{W}42:laser_status	3	0</Fmt5>
+    </watch_formats>
+    <Trace1>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </Trace1>
+    <ETMTraceWindow>
+        <PortWidth>4</PortWidth>
+        <PortMode>0</PortMode>
+        <CaptureDataValues>0</CaptureDataValues>
+        <CaptureDataAddresses>0</CaptureDataAddresses>
+        <CaptureDataRange>0</CaptureDataRange>
+        <DataFirst>0</DataFirst>
+        <DataLast>4294967295</DataLast>
+        <StopWhen>0</StopWhen>
+        <StallCPU>0</StallCPU>
+        <NoPCCapture>0</NoPCCapture>
+    </ETMTraceWindow>
+    <Trace2>
+        <Enabled>0</Enabled>
+        <ShowSource>0</ShowSource>
+    </Trace2>
+    <SWOTraceWindow>
+        <ForcedPcSampling>0</ForcedPcSampling>
+        <ForcedInterruptLogs>0</ForcedInterruptLogs>
+        <ForcedItmLogs>0</ForcedItmLogs>
+        <EventCPI>0</EventCPI>
+        <EventEXC>0</EventEXC>
+        <EventFOLD>0</EventFOLD>
+        <EventLSU>0</EventLSU>
+        <EventSLEEP>0</EventSLEEP>
+    </SWOTraceWindow>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Bp0>_ 0 "EMUL_CODE" "{F:\none\Study\Other\Robot\RTS team\RTS_Code_2023-2024\1_car\file\2024一车底盘_20240322}.155.7" 0 0 1 "" 0 "" 0</Bp0>
+        <Count>1</Count>
+    </Breakpoints2>
+    <Aliases>
+        <A0>_ "C:\Users\86136\Desktop\2024一车底盘_20240601\2024一车底盘_V1(1)\2024一车底盘_V1.1\Core\Src\main.c" ""</A0>
+        <A1>_ "C:\Users\86136\Desktop\2024一车底盘_20240601\2024一车底盘_V1(1)\2024一车底盘_V1.1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c" ""</A1>
+        <A2>_ "C:\Users\86136\Desktop\2024一车底盘_20240601\2024一车底盘_V1(1)\2024一车底盘_V1.1\Middlewares\Third_Party\FreeRTOS\Source\timers.c" ""</A2>
+        <A3>_ "C:\Users\86136\Desktop\2024一车底盘_20240625_1\2024一车底盘_20240605_38s\2024一车底盘_V1(1)\2024一车底盘_V1.1\Core\Src\main.c" ""</A3>
+        <A4>_ "C:\Users\86136\Desktop\2024一车底盘_20240625_1\2024一车底盘_20240605_38s\2024一车底盘_V1(1)\2024一车底盘_V1.1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c" ""</A4>
+        <A5>_ "C:\Users\86136\Desktop\2024一车底盘_20240625_1\2024一车底盘_20240605_38s\2024一车底盘_V1(1)\2024一车底盘_V1.1\Middlewares\Third_Party\FreeRTOS\Source\tasks.c" ""</A5>
+        <A6>_ "C:\Users\86136\Desktop\2024一车底盘_20240625_1\2024一车底盘_20240605_38s\2024一车底盘_V1(1)\2024一车底盘_V1.1\Middlewares\Third_Party\FreeRTOS\Source\timers.c" ""</A6>
+        <A7>_ "C:\Users\x'y'x\Desktop\2024一车底盘_20240424\2024一车底盘_20240605_38s\2024一车底盘_20240605_38s\2024一车底盘_V1(1)\2024一车底盘_V1.1\Core\Src\main.c" ""</A7>
+        <A8>_ "C:\Users\x'y'x\Desktop\2024一车底盘_20240424\2024一车底盘_20240605_38s\2024一车底盘_20240605_38s\2024一车底盘_V1(1)\2024一车底盘_V1.1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c" ""</A8>
+        <A9>_ "C:\Users\x'y'x\Desktop\2024一车底盘_20240424\2024一车底盘_20240605_38s\2024一车底盘_20240605_38s\2024一车底盘_V1(1)\2024一车底盘_V1.1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c" ""</A9>
+        <A10>_ "C:\Users\x'y'x\Desktop\2024一车底盘_20240424\2024一车底盘_20240605_38s\2024一车底盘_20240605_38s\2024一车底盘_V1(1)\2024一车底盘_V1.1\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c" ""</A10>
+        <A11>_ "C:\Users\x'y'x\Desktop\2024一车底盘_20240424\2024一车底盘_20240605_38s\2024一车底盘_20240605_38s\2024一车底盘_V1(1)\2024一车底盘_V1.1\Middlewares\Third_Party\FreeRTOS\Source\tasks.c" ""</A11>
+        <A12>_ "C:\Users\x'y'x\Desktop\2024一车底盘_20240424\2024一车底盘_20240605_38s\2024一车底盘_20240605_38s\2024一车底盘_V1(1)\2024一车底盘_V1.1\Middlewares\Third_Party\FreeRTOS\Source\timers.c" ""</A12>
+        <A13>_ "C:\Users\x'y'x\Desktop\另外半场底层\2024一车底盘_20240625_1\2024一车底盘_20240605_38s\2024一车底盘_V1(1)\2024一车底盘_V1.1\Core\Src\main.c" ""</A13>
+        <A14>_ "C:\Users\x'y'x\Desktop\另外半场底层\2024一车底盘_20240625_1\2024一车底盘_20240605_38s\2024一车底盘_V1(1)\2024一车底盘_V1.1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c" ""</A14>
+        <A15>_ "C:\Users\x'y'x\Desktop\另外半场底层\2024一车底盘_20240625_1\2024一车底盘_20240605_38s\2024一车底盘_V1(1)\2024一车底盘_V1.1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c" ""</A15>
+        <A16>_ "C:\Users\x'y'x\Desktop\另外半场底层\2024一车底盘_20240625_1\2024一车底盘_20240605_38s\2024一车底盘_V1(1)\2024一车底盘_V1.1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c" ""</A16>
+        <A17>_ "C:\Users\x'y'x\Desktop\另外半场底层\2024一车底盘_20240625_1\2024一车底盘_20240605_38s\2024一车底盘_V1(1)\2024一车底盘_V1.1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c" ""</A17>
+        <A18>_ "C:\Users\x'y'x\Desktop\另外半场底层\2024一车底盘_20240625_1\2024一车底盘_20240605_38s\2024一车底盘_V1(1)\2024一车底盘_V1.1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c" ""</A18>
+        <A19>_ "C:\Users\x'y'x\Desktop\另外半场底层\2024一车底盘_20240625_1\2024一车底盘_20240605_38s\2024一车底盘_V1(1)\2024一车底盘_V1.1\Middlewares\Third_Party\FreeRTOS\Source\timers.c" ""</A19>
+        <A20>_ "C:\Users\x'y'x\Desktop\另外半场底层\另外半场底层\2024一车底盘_20240625_1\2024一车底盘_20240605_38s\2024一车底盘_V1(1)\2024一车底盘_V1.1\Core\Src\main.c" ""</A20>
+        <A21>_ "D:\program_data\rebuildstm32\RTS_DJI_C\Drivers\CMSIS\Include\core_cm4.h" ""</A21>
+        <A22>_ "D:\program_data\rebuildstm32\RTS_DJI_C\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c" ""</A22>
+        <A23>_ "D:\program_data\rebuildstm32\RTS_DJI_C\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c" ""</A23>
+        <A24>_ "F:\none\Study\Other\Robot\RTS team\RTS_Code_2023-2024\1_car\file\2024一车底盘_20240424\2024一车底盘_V1(1)\2024一车底盘_V1.1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c" ""</A24>
+        <A25>_ "F:\none\Study\Other\Robot\RTS team\RTS_Code_2023-2024\1_car\file\2024一车底盘_20240424\2024一车底盘_V1(1)\2024一车底盘_V1.1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" ""</A25>
+        <A26>_ "F:\none\Study\Other\Robot\RTS team\RTS_Code_2023-2024\1_car\file\2024一车底盘_20240424\2024一车底盘_V1(1)\2024一车底盘_V1.1\USER\Src\M3508.c" "C:\Users\30437\Desktop\2024一车底盘_20240424 - 副本\2024一车底盘_20240424\2024一车底盘_V1(1)\2024一车底盘_V1.1\USER\Src\M3508.c"</A26>
+        <A27>_ "F:\none\Study\Other\Robot\RTS team\RTS_Code_2023-2024\1_car\file\2024一车底盘_20240605_38s\2024一车底盘_V1(1)\2024一车底盘_V1.1\Core\Src\main.c" ""</A27>
+        <A28>_ "F:\none\Study\Other\Robot\RTS team\RTS_Code_2023-2024\1_car\file\2024一车底盘_20240605_38s\2024一车底盘_V1(1)\2024一车底盘_V1.1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c" ""</A28>
+        <A29>_ "F:\none\Study\Other\Robot\RTS team\RTS_Code_2023-2024\1_car\file\2024一车底盘_20240605_38s\2024一车底盘_V1(1)\2024一车底盘_V1.1\Middlewares\Third_Party\FreeRTOS\Source\timers.c" ""</A29>
+        <A30>_ "F:\none\Study\Other\Robot\RTS team\RTS_Code_2023-2024\1_car\file\2024一车底盘_V1(2)_20240310\2024一车底盘_V1(1)\2024一车底盘_V1.1\Core\Src\main.c" "C:\Users\x'y'x\Desktop\2024一车底盘_V1.1\2024一车底盘_V1(2)_20240310\2024一车底盘_V1(1)\2024一车底盘_V1.1\Core\Src\main.c"</A30>
+        <A31>_ "F:\none\Study\Other\Robot\RTS team\RTS_Code_2023-2024\1_car\file\一车底盘5.5状态机有问题\2024一车底盘_20240424\2024一车底盘_V1(1)\2024一车底盘_V1.1\Core\Src\main.c" ""</A31>
+        <A32>_ "F:\none\Study\Other\Robot\RTS team\RTS_Code_2023-2024\1_car\file\一车底盘5.5状态机有问题\2024一车底盘_20240424\2024一车底盘_V1(1)\2024一车底盘_V1.1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c" ""</A32>
+        <A33>_ "F:\none\Study\Other\Robot\RTS team\RTS_Code_2023-2024\1_car\file\一车底盘5.5状态机有问题\2024一车底盘_20240424\2024一车底盘_V1(1)\2024一车底盘_V1.1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c" ""</A33>
+        <A34>_ "F:\none\Study\Other\Robot\RTS team\RTS_Code_2023-2024\1_car\file\一车底盘5.5状态机有问题\2024一车底盘_20240424\2024一车底盘_V1(1)\2024一车底盘_V1.1\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c" ""</A34>
+        <A35>_ "F:\none\Study\Other\Robot\RTS team\RTS_Code_2023-2024\1_car\file\一车底盘5.5状态机有问题\2024一车底盘_20240424\2024一车底盘_V1(1)\2024一车底盘_V1.1\Middlewares\Third_Party\FreeRTOS\Source\tasks.c" ""</A35>
+        <A36>_ "F:\none\Study\Other\Robot\RTS team\RTS_Code_2023-2024\1_car\file\一车底盘5.5状态机有问题\2024一车底盘_20240424\2024一车底盘_V1(1)\2024一车底盘_V1.1\Middlewares\Third_Party\FreeRTOS\Source\timers.c" ""</A36>
+        <Count>37</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
+</settings>

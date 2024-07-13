@@ -1,0 +1,18 @@
+{
+  "workspace": {
+    "path": "${workspaceFolder}\\EWARM\\Project.eww"
+  },
+  "workspaces": {
+    "${workspaceFolder}\\EWARM\\Project.eww": {
+      "configs": {
+        "${workspaceFolder}\\EWARM\\RTS_DJI_C.ewp": "RTS_DJI_C"
+      },
+      "selected": {
+        "path": "${workspaceFolder}\\EWARM\\RTS_DJI_C.ewp"
+      }
+    }
+  },
+  "workbench": {
+    "path": "F:\\Iar Ewarm"
+  }
+}
