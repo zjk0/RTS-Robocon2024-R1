@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<settings>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <StLinkDriver>
+        <stlinkserialNo>C</stlinkserialNo>
+        <stlinkfoundProbes />
+        <stlinkResetStyle>0</stlinkResetStyle>
+        <stlinkResetStrategy>2</stlinkResetStrategy>
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+    </StLinkDriver>
+    <JLinkDriver>
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+    </JLinkDriver>
+    <DebugChecksum>
+        <Checksum>475087833</Checksum>
+    </DebugChecksum>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
+    <CodeCoverage>
+        <Enabled>_ 0</Enabled>
+    </CodeCoverage>
+    <Disassembly>
+        <InstrCount>0</InstrCount>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <SWOTraceHWSettings>
+        <OverrideDefaultClocks>0</OverrideDefaultClocks>
+        <CpuClock>180000000</CpuClock>
+        <ClockAutoDetect>0</ClockAutoDetect>
+        <ClockWanted>2000000</ClockWanted>
+        <JtagSpeed>2000000</JtagSpeed>
+        <Prescaler>90</Prescaler>
+        <TimeStampPrescIndex>0</TimeStampPrescIndex>
+        <TimeStampPrescData>0</TimeStampPrescData>
+        <PcSampCYCTAP>1</PcSampCYCTAP>
+        <PcSampPOSTCNT>15</PcSampPOSTCNT>
+        <PcSampIndex>0</PcSampIndex>
+        <DataLogMode>0</DataLogMode>
+        <ITMportsEnable>0</ITMportsEnable>
+        <ITMportsTermIO>0</ITMportsTermIO>
+        <ITMportsLogFile>0</ITMportsLogFile>
+        <ITMlogFile>$PROJ_DIR$\ITM.log</ITMlogFile>
+    </SWOTraceHWSettings>
+    <Jet>
+        <JetConnSerialNo>ATK-HS-V3-CMSIS-DAP:ATK 20190528</JetConnSerialNo>
+        <JetConnFoundProbes />
+        <PrevWtdReset>System</PrevWtdReset>
+        <OnlineReset>Software</OnlineReset>
+        <DisableInterrupts>0</DisableInterrupts>
+        <LeaveRunning>0</LeaveRunning>
+        <MultiCoreRunAll>0</MultiCoreRunAll>
+    </Jet>
+    <PlDriver>
+        <FirstRun>0</FirstRun>
+        <MemConfigValue>F:\EWARM_8321\arm\CONFIG\debugger\ST\STM32F427II.ddf</MemConfigValue>
+    </PlDriver>
+    <ArmDriver>
+        <EnableCache>1</EnableCache>
+    </ArmDriver>
+    <SWOManager>
+        <SamplingDivider>8192</SamplingDivider>
+        <OverrideClock>0</OverrideClock>
+        <CpuClock>538976288</CpuClock>
+        <SwoClock>538976288</SwoClock>
+        <DataLogMode>0</DataLogMode>
+        <ItmPortsEnabled>63</ItmPortsEnabled>
+        <ItmTermIOPorts>1</ItmTermIOPorts>
+        <ItmLogPorts>0</ItmLogPorts>
+        <ItmLogFile>$PROJ_DIR$\ITM.log</ItmLogFile>
+        <PowerForcePC>1</PowerForcePC>
+        <PowerConnectPC>1</PowerConnectPC>
+    </SWOManager>
+    <PowerLog>
+        <Title_0>I0</Title_0>
+        <Symbol_0>0 4 0</Symbol_0>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <LiveEnabled>0</LiveEnabled>
+        <LiveFile>PowerLogLive.log</LiveFile>
+    </PowerLog>
+    <DataLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+    </DataLog>
+    <InterruptLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </InterruptLog>
+    <EventLog>
+        <Title_0>Ch3</Title_0>
+        <Symbol_0>0 0 1</Symbol_0>
+        <Title_1>Ch2</Title_1>
+        <Symbol_1>0 0 1</Symbol_1>
+        <Title_2>Ch1</Title_2>
+        <Symbol_2>0 0 1</Symbol_2>
+        <Title_3>Ch0</Title_3>
+        <Symbol_3>0 0 1</Symbol_3>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </EventLog>
+    <DriverProfiling>
+        <Enabled>0</Enabled>
+        <Mode>3</Mode>
+        <Graph>0</Graph>
+        <Symbiont>0</Symbiont>
+        <Exclusions />
+    </DriverProfiling>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
+    <PowerProbe>
+        <Frequency>10000</Frequency>
+        <Probe0>I0</Probe0>
+        <ProbeSetup0>2 1 1 2 0 0</ProbeSetup0>
+    </PowerProbe>
+    <watch_formats>
+        <Fmt0>{W}42:CCD_Zhongzhi	3	0</Fmt0>
+        <Fmt1>{W}42:aaa	3	0</Fmt1>
+        <Fmt2>{W}42:atest	3	0</Fmt2>
+        <Fmt3>{W}42:ball_pos_	3	0</Fmt3>
+        <Fmt4>{W}42:bbb	3	0</Fmt4>
+        <Fmt5>{W}42:bin	3	0</Fmt5>
+        <Fmt6>{W}42:quqiu_duoji	3	0</Fmt6>
+        <Fmt7>{W}42:test_	3	0</Fmt7>
+        <Fmt8>{W}42:test_time	3	0</Fmt8>
+    </watch_formats>
+    <Trace1>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </Trace1>
+    <ETMTraceWindow>
+        <PortWidth>4</PortWidth>
+        <PortMode>0</PortMode>
+        <CaptureDataValues>0</CaptureDataValues>
+        <CaptureDataAddresses>0</CaptureDataAddresses>
+        <CaptureDataRange>0</CaptureDataRange>
+        <DataFirst>0</DataFirst>
+        <DataLast>4294967295</DataLast>
+        <StopWhen>0</StopWhen>
+        <StallCPU>0</StallCPU>
+        <NoPCCapture>0</NoPCCapture>
+    </ETMTraceWindow>
+    <Trace2>
+        <Enabled>0</Enabled>
+        <ShowSource>0</ShowSource>
+    </Trace2>
+    <SWOTraceWindow>
+        <ForcedPcSampling>0</ForcedPcSampling>
+        <ForcedInterruptLogs>0</ForcedInterruptLogs>
+        <ForcedItmLogs>0</ForcedItmLogs>
+        <EventCPI>0</EventCPI>
+        <EventEXC>0</EventEXC>
+        <EventFOLD>0</EventFOLD>
+        <EventLSU>0</EventLSU>
+        <EventSLEEP>0</EventSLEEP>
+    </SWOTraceWindow>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Bp0>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c}.1756.3" 0 0 1 "" 0 "" 0</Bp0>
+        <Count>1</Count>
+    </Breakpoints2>
+    <Aliases>
+        <A0>_ "C:\Users\HP\Desktop\大象纯手动hal_V1.2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c" ""</A0>
+        <A1>_ "C:\Users\x'y'x\Desktop\一车-2023-10-26\2024-一车上层\一车上层(1)\一车上层\Core\Src\main.c" ""</A1>
+        <A2>_ "C:\Users\x'y'x\Desktop\一车-2023-10-26\一车-2023-10-26\一车-2023-10-26\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c" ""</A2>
+        <A3>_ "C:\Users\x'y'x\Desktop\一车-2023-10-26\一车-2023-10-26\一车-2023-10-26\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c" "C:\Users\x'y'x\Desktop\一车-2023-10-26\一车上层\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c"</A3>
+        <A4>_ "C:\Users\x'y'x\Desktop\一车-2023-10-26\一车-2023-10-26\一车-2023-10-26\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c" "C:\Users\x'y'x\Desktop\一车-2023-10-26\一车上层\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c"</A4>
+        <A5>_ "C:\Users\x'y'x\Desktop\一车-2023-10-26\一车-2023-10-26\一车-2023-10-26\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" ""</A5>
+        <A6>_ "C:\Users\x'y'x\Desktop\一车-2023-10-26\一车-2023-10-26\一车-2023-10-26\Middlewares\Third_Party\FreeRTOS\Source\list.c" ""</A6>
+        <A7>_ "C:\Users\x'y'x\Desktop\一车-2023-10-26\一车-2023-10-26\一车-2023-10-26\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\port.c" ""</A7>
+        <A8>_ "C:\Users\x'y'x\Desktop\一车-2023-10-26\一车-2023-10-26\一车-2023-10-26\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c" ""</A8>
+        <A9>_ "C:\Users\x'y'x\Desktop\一车-2023-10-26\一车-2023-10-26\一车-2023-10-26\Middlewares\Third_Party\FreeRTOS\Source\tasks.c" ""</A9>
+        <A10>_ "C:\Users\x'y'x\Desktop\一车-2023-10-26\一车上层\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c" ""</A10>
+        <A11>_ "D:\Cheng Ran\Matchs\Robocon2023\大象纯手动hal_V1.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c" ""</A11>
+        <A12>_ "D:\Cheng Ran\Matchs\Robocon2023\大象纯手动hal_V1.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c" ""</A12>
+        <A13>_ "D:\文档\WeChat Files\wxid_3zrceute2ido22\FileStorage\File\2023-11\一车-2023-10-26(1)\一车-2023-10-26\一车-2023-10-26\一车-2023-10-26\Core\Src\main.c" ""</A13>
+        <A14>_ "E:\window\一车-2023-10-26 (4)\一车-2023-10-26\一车-2023-10-26\Core\Src\main.c" ""</A14>
+        <A15>_ "E:\window\一车-2023-10-26 (4)\一车-2023-10-26\一车-2023-10-26\USER\Src\SBUS.c" "F:\微信\WeChat Files\wxid_ugbfh7nw943y22\FileStorage\File\2023-12\一车上层\一车上层\USER\Src\SBUS.c"</A15>
+        <A16>_ "E:\window\一车-2023-10-26 (4)\一车-2023-10-26\一车-2023-10-26\USER\Src\TSL1401.c" "F:\微信\WeChat Files\wxid_ugbfh7nw943y22\FileStorage\File\2023-12\一车上层\一车上层\USER\Src\TSL1401.c"</A16>
+        <A17>_ "F:\none\Study\Other\Robot\RTS team\RTS_Code_2023-2024\1_car\file\2024-一车上层0609\一车上层(1)\一车上层\Core\Src\system_stm32f4xx.c" ""</A17>
+        <A18>_ "F:\none\Study\Other\Robot\RTS team\RTS_Code_2023-2024\1_car\file\2024-一车上层0609\一车上层(1)\一车上层\EWARM\startup_stm32f427xx.s" ""</A18>
+        <Count>19</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
+</settings>

@@ -1,0 +1,15 @@
+"F:\EWARM_8321\arm\bin\armproc.dll" 
+
+"F:\EWARM_8321\arm\bin\armJET.dll" 
+
+"C:\Users\86136\Desktop\Robocon\2024-一车上层0609红场\一车上层(1)\一车上层\EWARM\RTS_bare_metal\Exe\RTS_bare_metal.out" 
+
+--plugin="F:\EWARM_8321\arm\bin\armbat.dll" 
+
+--device_macro="F:\EWARM_8321\arm\config\debugger\ST\STM32F4xx.dmac" 
+
+--flash_loader="F:\EWARM_8321\arm\config\flashloader\ST\FlashSTM32F427xI.board" 
+
+
+
+
